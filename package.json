@@ -1,0 +1,39 @@
+{
+  "name": "@vasuvanka/uniq",
+  "version": "0.0.1",
+  "description": "Uniq ID generator",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist/src/**/!(*.spec).js",
+    "dist/src/**/!(*.spec).d.ts",
+    "dist/index.*"
+  ],
+  "scripts": {
+    "start": "./node_modules/.bin/tsc",
+    "test:jest": "./node_modules/.bin/jest --coverage",
+    "test": "npm run test:clear && npm run test:jest",
+    "test:clear": "./node_modules/.bin/jest --clearCache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasuvanka/uniq.git"
+  },
+  "keywords": [
+    "uniq id generator",
+    "uuid alternative"
+  ],
+  "author": "Vasu Vanka <vanka.vasu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vasuvanka/uniq/issues"
+  },
+  "homepage": "https://github.com/vasuvanka/uniq#readme",
+  "devDependencies": {
+    "@types/jest": "^25.2.2",
+    "@types/node": "^13.11.1",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.8.3"
+  }
+}
