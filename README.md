@@ -4,12 +4,8 @@ Uniq id generator for node
 ## Install
 
 ```
-npm install @vasuvanka/json-validator
+npm install @vasuvanka/uniq
 ```
-
-## Docs
-
-* API Documentation: https://vasuvanka.github.io/json-validator
 
 ## Example
 
